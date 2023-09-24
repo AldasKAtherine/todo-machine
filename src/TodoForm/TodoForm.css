@@ -1,0 +1,65 @@
+form{
+width: 90%;
+max-width: 300px;
+background-color: #fff;
+padding: 33px 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+label{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1e1e1f;
+    margin-bottom: 26px;
+}
+textarea{
+background-color: #F9FBFC;
+border: 2px solid #61daff;
+border-radius: 2px;
+box-shadow: 0px 5px 50px rgb(32 35 41 / 23%);
+color: #1e1e1f;
+font-size: 20px;
+text-align: center;
+padding: 12px;
+height: 96px;
+width: calc(100% - 25px);
+}
+textarea::placeholder{
+    color: #a5a5a5;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.btnContainer-TodoForm{
+    padding: 1rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+
+    
+
+}
+
+.btnTodoForm--add{
+    background-color: #61dafa;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+    font-size: 17px;
+    padding: 7px 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btnTodoForm--cancel{
+    background: transparent;
+    padding: 7px 10px;
+    font-size: 17px;
+    
+    margin-top: 1rem ;
+    cursor: pointer;
+    border: 1px solid #606060;
+
+}
