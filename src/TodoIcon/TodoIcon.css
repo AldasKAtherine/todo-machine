@@ -9,6 +9,7 @@
     font-weight: bold;
     /* background-color: #CCC; */
   }
+
   
   .Icon-container-check {
     position: absolute;
@@ -41,4 +42,16 @@
   
   .Icon-container-check:hover  .Icon-svg{
     fill: green;
+  }
+
+  .Icon-container-empty .Icon-svg{
+   
+    width: 50px;
+    height: 50px !important;
+
+  }
+  .Icon-container-empty{
+   
+margin: auto;
+
   }

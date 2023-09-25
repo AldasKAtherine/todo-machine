@@ -1,10 +1,17 @@
 
 import React from 'react';
+import './EmptyTodos.css';
+import { EmptyIcon } from '../TodoIcon/EmptyIcon';
 
 function EmptyTodos() {
  
   return (
-    <p>No hay Actividades</p>
+    <div className='containerEmpty'>
+      
+          <p>No hay Actividades</p>
+          <EmptyIcon/>
+    </div>
+
   );
 }
 
